@@ -31,6 +31,19 @@ p {
 .electric-truck-form {
     margin-left: 37.5%;
 }
+
+.electric-truck-comparison {
+    margin-left: 37.5%;
+}
+
+.comparison-photos {
+    margin-left: 30%
+}
+
+.truck-links {
+    margin-left: 30%;
+}
+
 fieldset {
     border: 4px solid blue;
     display: inline;
@@ -70,4 +83,27 @@ fieldset>div>button {
     background-color: blue;
     border: none;
     margin-top: 5% ;
+}
+
+.websites {
+    border: 4px solid blue;
+    display: grid;
+    height: 125px;
+    width: 275px;
+    margin-left: 37.5% ;
+    color: blue;
+    background-color: white;
+}
+
+.truck-photos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 15px;
+}
+
+.gallery__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
